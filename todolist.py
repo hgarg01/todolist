@@ -36,8 +36,16 @@ def printrows(rows,msg):
                 i += 1
 
 answer = 1
+menu = """1) Today's tasks
+2) Week's tasks
+3) All tasks
+4) Missed tasks
+5) Add task
+6) Delete task
+0) Exit"""
 while answer != 0:
-    print("\n1) Today's tasks\n2) Week's tasks\n3) All tasks\n4) Missed tasks\n5) Add task\n6) Delete task\n0) Exit")
+    #print(menu)
+    print("1) Today's tasks\n2) Week's tasks\n3) All tasks\n4) Missed tasks\n5) Add task\n6) Delete task\n0) Exit")
     answer = int(input())
 
     if answer == 1:
